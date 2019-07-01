@@ -7,10 +7,149 @@
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <script src="https://kit.fontawesome.com/89145cd6eb.js"></script>
 
 </head>
 <body>
-	<!-- your single-location forecast interface here -->
+	<div class="container">
+    <div class="header">
+      <h1 class="city">
+        Berkeley
+      </h1>
+      <h4 class="weather">
+        Sunny
+      </h4>
+      <h1 class="temperature">
+        70
+      </h1>
+    </div>
+    <div class="today">
+      <div class="today-header">
+        <h4 class="day-of-week">
+          Today
+        </h4>
+        <ul class="temp-for-day">
+          <li class="high">70</li>
+          <li class="low">60</li>
+        </ul>
+      </div>
+      <div class="carousel">
+        <ul class="hours">
+          <li>
+            <p>Now</p>
+            <i class="fas fa-sun"></i>
+            <p>68</p>
+          </li>
+          <li>
+            <p>5 PM</p>
+            <i class="fas fa-sun"></i>
+            <p>68</p>
+          </li>
+          <li>
+            <p>6 PM</p>
+            <i class="fas fa-sun"></i>
+            <p>67</p>
+          </li>
+          <li>
+            <p>7 PM</p>
+            <i class="fas fa-cloud-sun"></i>
+            <p>64</p>
+          </li>
+          <li>
+            <p>8 PM</p>
+            <i class="fas fa-cloud-sun"></i>
+            <p>64</p>
+          </li>
+          <li>
+            <p>9 PM</p>
+            <i class="fas fa-cloud-moon"></i>
+            <p>63</p>
+          </li>
+          <li>
+            <p>10 PM</p>
+            <i class="fas fa-cloud-moon"></i>
+            <p>63</p>
+          </li>
+          <li>
+            <p>11 PM</p>
+            <i class="fas fa-cloud-moon"></i>
+            <p>62</p>
+          </li>
+          <li>
+            <p>12 AM</p>
+            <i class="fas fa-cloud-moon"></i>
+            <p>60</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="rest-of-week">
+      <div class="day first">
+        <div class="day-of-week-container">
+          <h3 class="day-of-week">
+            Thursday
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">80</li>
+              <li class="low">65</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="day second">
+         <div class="day-of-week-container">
+           <h3 class="day-of-week">
+             Friday
+           </h3>
+           <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">85</li>
+              <li class="low">60</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="day third">
+         <div class="day-of-week-container">
+           <h3 class="day-of-week">
+            Saturday
+           </h3>
+           <div class="weather-icon">
+            <i class="fas fa-cloud-sun"></i>
+           </div>
+           <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">70</li>
+              <li class="low">50</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+      <div class="day fourth">
+         <div class="day-of-week-container">
+           <h3 class="day-of-week">
+            Sunday
+           </h3>
+           <div class="weather-icon">
+            <i class="fas fa-cloud-sun"></i>
+           </div>
+           <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">69</li>
+              <li class="low">49</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
