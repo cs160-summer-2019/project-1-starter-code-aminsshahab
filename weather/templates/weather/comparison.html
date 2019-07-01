@@ -4,12 +4,156 @@
 <html>
 <head>
 	<title>Comparison</title>
-	
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  
+  <script src="https://kit.fontawesome.com/89145cd6eb.js"></script>
 
 </head>
 <body>
-	<!-- your comparison interface here -->
+  <div class="cities-container">
+    <div class="comparison-header">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="city first" onclick="window.location='/weather/forecast';">
+      <div class="city-container">
+        <h3 class="city-name">
+          Berkeley
+        </h3>
+        <div class="weather-icon">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div class="weather-info-container">
+          <ul class="temp-for-day">
+            <li class="high">80</li>
+            <li class="low">65</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      
+    <div class="city second">
+        <div class="city-container">
+          <h3 class="city-name">
+            Oakland
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">82</li>
+              <li class="low">67</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city third">
+        <div class="city-container">
+          <h3 class="city-name">
+            NYC
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">90</li>
+              <li class="low">70</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city fourth">
+        <div class="city-container">
+          <h3 class="city-name">
+            Denver
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">74</li>
+              <li class="low">58</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city fifth">
+        <div class="city-container">
+          <h3 class="city-name">
+            Cairo
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">100</li>
+              <li class="low">75</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city fifth">
+        <div class="city-container">
+          <h3 class="city-name">
+            Berlin
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">70</li>
+              <li class="low">63</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city sixth">
+        <div class="city-container">
+          <h3 class="city-name">
+            Tulum
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">95</li>
+              <li class="low">85</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="city last">
+        <div class="city-container">
+          <h3 class="city-name">
+            Cancun
+          </h3>
+          <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="weather-info-container">
+            <ul class="temp-for-day">
+              <li class="high">100</li>
+              <li class="low">88</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
 </body>
 </html>
